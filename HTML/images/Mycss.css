@@ -1,0 +1,38 @@
+#cont{
+			width: 100%;
+			padding: 5px;
+		}
+
+		form{
+			width: 92%;
+			border: solid;
+			border-width: thick;
+			margin: auto;
+			padding: 5px;
+			height: 98vh;
+			border-radius: 5px;
+		}
+
+		input{
+            width: 45%;
+            height: 16px;
+            display: block;
+		}
+		#sub{
+			border-radius: 5px;
+			background-color: darkgreen;
+			color: white;
+			cursor: pointer;
+			float: right;
+			margin-right: 3%;
+		}
+
+		@media only screen and (min-width: 600px){
+			form{
+				width: 40%;
+				height: 90vh;
+			}
+			input{
+				display: inline;
+			}
+		}
